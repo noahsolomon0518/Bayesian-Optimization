@@ -1,6 +1,6 @@
 from sklearn.gaussian_process import GaussianProcessRegressor as GPR
 from sklearn.gaussian_process.kernels import RBF
-from EI import EI
+import EI
 import numpy as np
 from sklearn.linear_model import LinearRegression as LM
 
